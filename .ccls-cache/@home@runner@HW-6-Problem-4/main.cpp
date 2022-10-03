@@ -3,21 +3,12 @@
 #include <string>
 
 using namespace std;
+  
+void sign(int, string);
 
 int main() {
   //month to int
-  char Jan = 1;
-  char Feb = 2;
-  char Mar = 3;
-  char Apr = 4;
-  char May = 5;
-  char Jun = 6;
-  char Jul = 7;
-  char Aug = 8;
-  char Sep = 9;
-  char Oct = 10;
-  char Nov = 11;
-  char Dec = 12;
+
 
   int T;
   cout << "enter classmates: ";
@@ -28,23 +19,51 @@ int main() {
     char m;
     cout << "enter date: ";
     cin >> d >> m;
-  
-  if (d = 5 || m = Mar)
-    cout << "Taurus" << endl;
-  }}
-    
-  
-  
 
-
-
-  
-
-    
-    
-
-    
-  
-
-  
+    return 0;
     }
+  
+
+  //user function
+  void sign(int day, string month)
+{
+    string sign =" ";
+  if (month == "Aug"){
+      if (day < 23)
+        sign = "Leo";
+      else 
+        sign = "Virgo";}
+
+  
+  }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  return sign;
+}
