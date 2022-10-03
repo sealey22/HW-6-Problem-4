@@ -1,30 +1,11 @@
 #include <iostream>
 #include <iomanip>
+#include <string>
 
 using namespace std;
-int Month(char);
+
 int main() {
-  int T;// number  of harry potters classmates
-  cout << " Enter the number of classmates: ";
-  cin >> T;
-
-  
-  int myMonth = Month(int month);
-
-  
-
-    
-    
-
-    
-  
-
-  
-    }
-int Month(int m){
-  char month;
-  cout << "Enter month: ";
-  cin >> month;
+  //month to int
   char Jan = 1;
   char Feb = 2;
   char Mar = 3;
@@ -37,19 +18,33 @@ int Month(int m){
   char Oct = 10;
   char Nov = 11;
   char Dec = 12;
+
+  int T;
+  cout << "enter classmates: ";
+  cin >> T;
+
+  for(int i = 1; i <= T; i++){
+    int d;
+    char m;
+    cout << "enter date: ";
+    cin >> d >> m;
   
-      
-      
-      
+  if (d = 5 || m = Mar)
+    cout << "Taurus" << endl;
+  }}
+    
+  
+  
+
+
+
+  
+
     
     
 
-
     
+  
 
-
-
-
-
-  return month;
-}
+  
+    }
